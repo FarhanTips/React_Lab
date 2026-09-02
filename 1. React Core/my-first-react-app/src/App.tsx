@@ -1,6 +1,7 @@
 
 import './App.css'
 import Todo from "./todo"
+import Task from "./task"
 
 function App() {
 
@@ -13,6 +14,9 @@ function App() {
     <Todo task="Take a shower" time = "12:30 pm"></Todo>
     <Todo task="Do coding" time = {9}></Todo>
     <Todo task="Sleep Time" time = "11:00 pm"></Todo>
+    <Task name="Playing Football" isDone={true}></Task>
+    <Task name="Attend classes" isDone={false}></Task>
+    <Task name="Scrolling Facebook" isDone={true}></Task>
     </>
   )
 }
