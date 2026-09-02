@@ -6,14 +6,14 @@ function App() {
   return (
     <>
     <h1>Get Started</h1>
+    <Student name="Farhan" gpa="3.92"></Student>
     <Student></Student>
-    <Student></Student>
-    <Student></Student>
+    <Student name="Khan"></Student>
     </>
   )
 }
 
-function Student() {
+function Student(props) {
   const studentStyle = {
     border: "2px solid salmon",
     borderRadius: "10px",
@@ -21,8 +21,8 @@ function Student() {
   }
   return (
     <div style={studentStyle}>
-      <h3>Name:</h3>
-      <p>Grades:</p>
+      <h3>Name: {props.name}</h3>
+      <p>Grades: {props.gpa}</p>
     </div>
   )
 }
