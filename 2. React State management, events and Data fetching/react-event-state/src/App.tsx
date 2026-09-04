@@ -1,5 +1,6 @@
 
 import './App.css'
+import Batter from './state change'
 import StateDoesntWork from './wrong state change'
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
     <button onClick={handleClick}>Click me 1</button>
     <button onClick={() => handleAddToCart(65)}>Click me 2</button>
     <StateDoesntWork></StateDoesntWork>
+    <Batter></Batter>
     </>
   )
 }
