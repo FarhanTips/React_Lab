@@ -9,7 +9,7 @@ export default function Posts({props}){
         <div>
             <h3>Posts data length = {posts.length}</h3>
             {
-                posts.map(elem => <PostsCard post = {elem}></PostsCard>)
+                posts.map(elem => <PostsCard post = {elem}>Hello</PostsCard>)
             }
         </div>
     )
