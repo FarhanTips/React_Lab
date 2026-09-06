@@ -10,3 +10,7 @@
 .countryCard img{
     width: 200px;
 }
+
+.country-visited{
+    background-color: rgb(151, 234, 211);
+}
