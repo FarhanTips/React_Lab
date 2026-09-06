@@ -1,9 +1,10 @@
 
 import { Suspense } from 'react';
 import './App.css'
-import Countries from './components/countries';
+import Countries from './components/Countries/countries';
+import type { CountryType } from './type';
 
-const countriesPromise = async ()=> {
+const countriesPromise = async (): Promise<CountryType[]> => {
   const res = await fetch("https://openapi.programming-hero.com/api/all");
   const data = await res.json();
   return data.countries;
