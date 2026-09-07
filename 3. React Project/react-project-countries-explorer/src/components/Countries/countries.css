@@ -5,3 +5,8 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
 }
+
+.visitedFlags img{
+    width: 100px;
+    padding: 10px;
+}

@@ -5,9 +5,10 @@ import "./countrycard.css"
 
 interface CountryCardProps {
     country: CountryType,
-    handleFlag: (flag: string) => void;
+    handleFlag: (flag: string) => void,
+    visitedFlag: string[]
 }
-export function CountryCard({country, handleFlag}: CountryCardProps){
+export function CountryCard({country, handleFlag, visitedFlag}: CountryCardProps){
 
     const [visited, SetVisited] = useState(false);
     const handleVisited = ()=>{
@@ -21,7 +22,9 @@ export function CountryCard({country, handleFlag}: CountryCardProps){
             <p>Capital: {country.capital.capital}</p>
             <button onClick={handleVisited}>{visited ? "Visited" : "Mars as Visited"}</button>
             <br />
-            <button onClick={()=> handleFlag(country.flags.flags.png)}>Went</button>
+            <br />
+            {/* <button onClick={()=> handleFlag(country.flags.flags.png)}>Add Flag</button> */}
+            <button onClick={()=> handleFlag(country.flags.flags.png)}>{visitedFlag.includes(country.flags.flags.png) ? "Flag Added" : "Add Flag"}</button>
         </div>
     )
 }
