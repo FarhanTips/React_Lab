@@ -2,7 +2,12 @@ import { useState } from "react";
 import type { CountryType } from "../../type";
 import "./countrycard.css"
 
-export function CountryCard({country}: {country: CountryType}){
+
+interface CountryCardProps {
+    country: CountryType,
+    handleFlag: (flag: string) => void;
+}
+export function CountryCard({country, handleFlag}: CountryCardProps){
 
     const [visited, SetVisited] = useState(false);
     const handleVisited = ()=>{
@@ -15,6 +20,8 @@ export function CountryCard({country}: {country: CountryType}){
             <p>Population: {country.population.population}</p>
             <p>Capital: {country.capital.capital}</p>
             <button onClick={handleVisited}>{visited ? "Visited" : "Mars as Visited"}</button>
+            <br />
+            <button onClick={()=> handleFlag(country.flags.flags.png)}>Went</button>
         </div>
     )
 }
