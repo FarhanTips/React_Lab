@@ -20,7 +20,7 @@ export function CountryCard({country, handleFlag, visitedFlag}: CountryCardProps
             <img src={country.flags.flags.png} alt="country.flags.flags.alt" />
             <p>Population: {country.population.population}</p>
             <p>Capital: {country.capital.capital}</p>
-            <button onClick={handleVisited}>{visited ? "Visited" : "Mars as Visited"}</button>
+            <button onClick={handleVisited}>{visited ? "Visited" : "Mark as Visited"}</button>
             <br />
             <br />
             {/* <button onClick={()=> handleFlag(country.flags.flags.png)}>Add Flag</button> */}
