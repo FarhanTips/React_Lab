@@ -6,7 +6,7 @@
     "playerType": "Batter",
     "bowlingStyle": "Right-arm Medium",
     "battingStyle": "Right-handed",
-    "price": 150000
+    "price": 150
   },
   {
     "playerName": "Babar Azam",
@@ -15,7 +15,7 @@
     "playerType": "Batter",
     "bowlingStyle": "Right-arm Off Break",
     "battingStyle": "Right-handed",
-    "price": 145000
+    "price": 140
   },
   {
     "playerName": "Shakib Al Hasan",
@@ -24,7 +24,7 @@
     "playerType": "All-Rounder",
     "bowlingStyle": "Left-arm Orthodox",
     "battingStyle": "Left-handed",
-    "price": 120000
+    "price": 120
   },
   {
     "playerName": "Jasprit Bumrah",
@@ -33,7 +33,7 @@
     "playerType": "Bowler",
     "bowlingStyle": "Right-arm Fast",
     "battingStyle": "Right-handed",
-    "price": 160000
+    "price": 160
   },
   {
     "playerName": "Kane Williamson",
@@ -42,7 +42,7 @@
     "playerType": "Batter",
     "bowlingStyle": "Right-arm Off Break",
     "battingStyle": "Right-handed",
-    "price": 125000
+    "price": 125
   },
   {
     "playerName": "Ben Stokes",
@@ -51,7 +51,7 @@
     "playerType": "All-Rounder",
     "bowlingStyle": "Right-arm Fast Medium",
     "battingStyle": "Left-handed",
-    "price": 150000
+    "price": 150
   },
   {
     "playerName": "Pat Cummins",
@@ -60,7 +60,7 @@
     "playerType": "Bowler",
     "bowlingStyle": "Right-arm Fast",
     "battingStyle": "Right-handed",
-    "price": 155000
+    "price": 155
   },
   {
     "playerName": "Joe Root",
@@ -69,7 +69,7 @@
     "playerType": "Batter",
     "bowlingStyle": "Right-arm Off Break",
     "battingStyle": "Right-handed",
-    "price": 135000
+    "price": 135
   },
   {
     "playerName": "Rohit Sharma",
@@ -78,7 +78,7 @@
     "playerType": "Batter",
     "bowlingStyle": "Right-arm Off Break",
     "battingStyle": "Right-handed",
-    "price": 140000
+    "price": 145
   },
   {
     "playerName": "Rashid Khan",
@@ -87,7 +87,7 @@
     "playerType": "All-Rounder",
     "bowlingStyle": "Right-arm Leg Break",
     "battingStyle": "Right-handed",
-    "price": 145000
+    "price": 130
   },
   {
     "playerName": "Shaheen Afridi",
@@ -96,7 +96,7 @@
     "playerType": "Bowler",
     "bowlingStyle": "Left-arm Fast",
     "battingStyle": "Left-handed",
-    "price": 140000
+    "price": 120
   },
   {
     "playerName": "Glenn Maxwell",
@@ -105,7 +105,7 @@
     "playerType": "All-Rounder",
     "bowlingStyle": "Right-arm Off Break",
     "battingStyle": "Right-handed",
-    "price": 125000
+    "price": 115
   },
   {
     "playerName": "Mustafizur Rahman",
@@ -114,7 +114,7 @@
     "playerType": "Bowler",
     "bowlingStyle": "Left-arm Fast Medium",
     "battingStyle": "Left-handed",
-    "price": 100000
+    "price": 100
   },
   {
     "playerName": "David Warner",
@@ -123,6 +123,6 @@
     "playerType": "Batter",
     "bowlingStyle": "Right-arm Leg Break",
     "battingStyle": "Left-handed",
-    "price": 115000
+    "price": 110
   }
 ]

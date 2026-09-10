@@ -1,12 +1,20 @@
 import { FaUser } from "react-icons/fa";
 import type { PlayerType } from "../../types/playerType";
 import { HiFlag } from "react-icons/hi";
+import { useState } from "react";
 
 interface PlayerCardProps {
     player: PlayerType
 }
 
 const PlayerCard = ({ player }: PlayerCardProps) => {
+
+    const [isSelected, setIsSelected] = useState(false);
+
+    const handleChooseButton = () =>{
+        setIsSelected(true);
+    };
+
     return (
         <div className="group overflow-hidden rounded-2xl border border-base-300 bg-base-100 shadow-md transition-all duration-300 hover:-translate-y-1 hover:shadow-xl mt-7">
 
@@ -70,7 +78,7 @@ const PlayerCard = ({ player }: PlayerCardProps) => {
 
                 </div>
 
-                <div className="my-5 divider"></div>
+                <div className="my-3 divider"></div>
 
                 {/* Bottom Section */}
                 <div className="flex items-center justify-between gap-4">
@@ -85,8 +93,8 @@ const PlayerCard = ({ player }: PlayerCardProps) => {
                         </p>
                     </div>
 
-                    <button className="btn btn-primary rounded-xl px-5">
-                        Choose Player
+                    <button onClick={handleChooseButton} className="btn btn-primary rounded-xl px-5" disabled = {isSelected ? true : false}>
+                        {isSelected ? "Selected" : "Choose Player"}
                     </button>
 
                 </div>
