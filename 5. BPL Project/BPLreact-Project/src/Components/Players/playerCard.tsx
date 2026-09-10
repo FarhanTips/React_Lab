@@ -1,21 +1,25 @@
 import { FaUser } from "react-icons/fa";
 import type { PlayerType } from "../../types/playerType";
 import { HiFlag } from "react-icons/hi";
-import { useState } from "react";
 
 interface PlayerCardProps {
     player: PlayerType,
     coin: number,
     handleCoin: (playerPrice: number) => void,
     handleSelected: (newP: PlayerType) => void,
+    selectedArray: PlayerType[]
 }
 
-const PlayerCard = ({ player, coin, handleCoin, handleSelected }: PlayerCardProps) => {
+const PlayerCard = ({ player, coin, handleCoin, handleSelected,selectedArray }: PlayerCardProps) => {
 
 
-    const [isSelected, setIsSelected] = useState(false);
+    let isSelected: boolean = false;
+    for (let i of selectedArray){
+        if (i.playerName === player.playerName){
+            isSelected = true;
+        }
+    }
     const handleChooseButton = () => {
-        coin >= player.price ? setIsSelected(true) : "";
         handleCoin(player.price);
         handleSelected(player);
     };

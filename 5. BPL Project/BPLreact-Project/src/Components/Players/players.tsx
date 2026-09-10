@@ -41,8 +41,8 @@ const Players = ({ playersPromise, coin, handleCoin, setCoin }: PlayersProps) =>
 
       {
         buttonType === "available" ? 
-        <AvailablePlayers players={players} coin={coin} handleCoin = {handleCoin} handleSelected={handleSelected}></AvailablePlayers> : 
-        
+        <AvailablePlayers players={players} coin={coin} handleCoin = {handleCoin} handleSelected={handleSelected} selectedArray={selectedArray}></AvailablePlayers> : 
+
         <SelectedPlayers selectedArray={selectedArray} setSelectedArray={setSelectedArray} coin={coin} setCoin={setCoin}></SelectedPlayers>
       }
 
