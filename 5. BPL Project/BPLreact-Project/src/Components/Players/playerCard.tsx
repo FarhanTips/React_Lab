@@ -13,7 +13,7 @@ interface PlayerCardProps {
 const PlayerCard = ({ player, coin, handleCoin, handleSelected,selectedArray }: PlayerCardProps) => {
 
 
-    let isSelected: boolean = false;
+    let isSelected: boolean = false; //Button-এর state change হচ্ছে না; selectedArray change হওয়ার কারণে isSelected নতুন করে calculate হচ্ছে, তারপর button-এর disabled এবং text-এর value change হচ্ছে।
     for (let i of selectedArray){
         if (i.playerName === player.playerName){
             isSelected = true;
