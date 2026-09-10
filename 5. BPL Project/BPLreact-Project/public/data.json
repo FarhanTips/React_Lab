@@ -1,9 +1,7 @@
-
-
 [
   {
     "playerName": "Virat Kohli",
-    "playerImg": "https://commons.wikimedia.org/wiki/Special:FilePath/Virat_Kohli_portrait.jpg",
+    "playerImg": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/generic/colored/3993.png",
     "origin": "India",
     "playerType": "Batter",
     "bowlingStyle": "Right-arm Medium",
@@ -12,7 +10,7 @@
   },
   {
     "playerName": "Babar Azam",
-    "playerImg": "https://commons.wikimedia.org/wiki/Special:FilePath/Babar_azam_2023.jpg",
+    "playerImg": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/generic/colored/59429.png",
     "origin": "Pakistan",
     "playerType": "Batter",
     "bowlingStyle": "Right-arm Off Break",
@@ -21,7 +19,7 @@
   },
   {
     "playerName": "Shakib Al Hasan",
-    "playerImg": "https://commons.wikimedia.org/wiki/Special:FilePath/Shakib_Al_Hasan_(1).jpg",
+    "playerImg": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/5612/3782.png",
     "origin": "Bangladesh",
     "playerType": "All-Rounder",
     "bowlingStyle": "Left-arm Orthodox",
@@ -30,7 +28,7 @@
   },
   {
     "playerName": "Jasprit Bumrah",
-    "playerImg": "https://commons.wikimedia.org/wiki/Special:FilePath/Jasprit_Bumrah_in_PMO_New_Delhi.jpg",
+    "playerImg": "https://api.bdcrictime.com/Profile/jasprit-bumrah-14_10_2023.jpg",
     "origin": "India",
     "playerType": "Bowler",
     "bowlingStyle": "Right-arm Fast",
@@ -39,7 +37,7 @@
   },
   {
     "playerName": "Kane Williamson",
-    "playerImg": "https://commons.wikimedia.org/wiki/Special:FilePath/Kane_Williamson.jpg",
+    "playerImg": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/generic/colored/4330.png",
     "origin": "New Zealand",
     "playerType": "Batter",
     "bowlingStyle": "Right-arm Off Break",
@@ -48,7 +46,7 @@
   },
   {
     "playerName": "Ben Stokes",
-    "playerImg": "https://commons.wikimedia.org/wiki/Special:FilePath/Ben_Stokes.jpg",
+    "playerImg": "https://api.bdcrictime.com/Profile/ben-stokes-13_10_2023.jpg",
     "origin": "England",
     "playerType": "All-Rounder",
     "bowlingStyle": "Right-arm Fast Medium",
@@ -57,7 +55,7 @@
   },
   {
     "playerName": "Pat Cummins",
-    "playerImg": "https://commons.wikimedia.org/wiki/Special:FilePath/Pat_Cummins.jpg",
+    "playerImg": "https://api.bdcrictime.com/Profile/pat-cummins-10_10_2023.jpg",
     "origin": "Australia",
     "playerType": "Bowler",
     "bowlingStyle": "Right-arm Fast",
@@ -66,7 +64,7 @@
   },
   {
     "playerName": "Joe Root",
-    "playerImg": "https://commons.wikimedia.org/wiki/Special:FilePath/Joe_root.jpg",
+    "playerImg": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/5612/10129.png",
     "origin": "England",
     "playerType": "Batter",
     "bowlingStyle": "Right-arm Off Break",
@@ -75,7 +73,7 @@
   },
   {
     "playerName": "Rohit Sharma",
-    "playerImg": "https://commons.wikimedia.org/wiki/Special:FilePath/Rohit_Sharma.jpg",
+    "playerImg": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/generic/colored/3852.png",
     "origin": "India",
     "playerType": "Batter",
     "bowlingStyle": "Right-arm Off Break",
@@ -84,7 +82,7 @@
   },
   {
     "playerName": "Rashid Khan",
-    "playerImg": "https://commons.wikimedia.org/wiki/Special:FilePath/Rashid_Khan.jpg",
+    "playerImg": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/13203/65748.png",
     "origin": "Afghanistan",
     "playerType": "All-Rounder",
     "bowlingStyle": "Right-arm Leg Break",
@@ -93,7 +91,7 @@
   },
   {
     "playerName": "Shaheen Afridi",
-    "playerImg": "https://commons.wikimedia.org/wiki/Special:FilePath/Shaheen_Afridi.jpg",
+    "playerImg": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/13203/66833.png",
     "origin": "Pakistan",
     "playerType": "Bowler",
     "bowlingStyle": "Left-arm Fast",
@@ -102,7 +100,7 @@
   },
   {
     "playerName": "Glenn Maxwell",
-    "playerImg": "https://commons.wikimedia.org/wiki/Special:FilePath/Glenn_Maxwell.jpg",
+    "playerImg": "https://www.khelspace.com/cdn/shop/articles/Glenn-Maxwell-ODI2020.png?v=1691128786",
     "origin": "Australia",
     "playerType": "All-Rounder",
     "bowlingStyle": "Right-arm Off Break",
@@ -110,75 +108,21 @@
     "price": 125000
   },
   {
+    "playerName": "Mustafizur Rahman",
+    "playerImg": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/8322/63881.png",
+    "origin": "Bangladesh",
+    "playerType": "Bowler",
+    "bowlingStyle": "Left-arm Fast Medium",
+    "battingStyle": "Left-handed",
+    "price": 100000
+  },
+  {
     "playerName": "David Warner",
-    "playerImg": "https://commons.wikimedia.org/wiki/Special:FilePath/David_Warner.jpg",
+    "playerImg": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/generic/colored/5380.png",
     "origin": "Australia",
     "playerType": "Batter",
     "bowlingStyle": "Right-arm Leg Break",
     "battingStyle": "Left-handed",
     "price": 115000
-  },
-  {
-    "playerName": "Jos Buttler",
-    "playerImg": "https://commons.wikimedia.org/wiki/Special:FilePath/Jos_Buttler.jpg",
-    "origin": "England",
-    "playerType": "Wicketkeeper-Batter",
-    "bowlingStyle": "Right-arm Medium",
-    "battingStyle": "Right-handed",
-    "price": 135000
-  },
-  {
-    "playerName": "Andre Russell",
-    "playerImg": "https://commons.wikimedia.org/wiki/Special:FilePath/Andre_Russell.jpg",
-    "origin": "West Indies",
-    "playerType": "All-Rounder",
-    "bowlingStyle": "Right-arm Fast",
-    "battingStyle": "Right-handed",
-    "price": 130000
-  },
-  {
-    "playerName": "Quinton de Kock",
-    "playerImg": "https://commons.wikimedia.org/wiki/Special:FilePath/Quinton_de_Kock.jpg",
-    "origin": "South Africa",
-    "playerType": "Wicketkeeper-Batter",
-    "bowlingStyle": "Right-arm Medium",
-    "battingStyle": "Left-handed",
-    "price": 120000
-  },
-  {
-    "playerName": "Kagiso Rabada",
-    "playerImg": "https://commons.wikimedia.org/wiki/Special:FilePath/Kagiso_Rabada.jpg",
-    "origin": "South Africa",
-    "playerType": "Bowler",
-    "bowlingStyle": "Right-arm Fast",
-    "battingStyle": "Right-handed",
-    "price": 145000
-  },
-  {
-    "playerName": "Nicholas Pooran",
-    "playerImg": "https://commons.wikimedia.org/wiki/Special:FilePath/Nicholas_Pooran.jpg",
-    "origin": "West Indies",
-    "playerType": "Wicketkeeper-Batter",
-    "bowlingStyle": "Right-arm Off Break",
-    "battingStyle": "Left-handed",
-    "price": 125000
-  },
-  {
-    "playerName": "Mustafizur Rahman",
-    "playerImg": "https://commons.wikimedia.org/wiki/Special:FilePath/Mustafizur_Rahman.jpg",
-    "origin": "Bangladesh",
-    "playerType": "Bowler",
-    "bowlingStyle": "Left-arm Fast Medium",
-    "battingStyle": "Left-handed",
-    "price": 95000
-  },
-  {
-    "playerName": "Litton Das",
-    "playerImg": "https://commons.wikimedia.org/wiki/Special:FilePath/Litton_Das.jpg",
-    "origin": "Bangladesh",
-    "playerType": "Wicketkeeper-Batter",
-    "bowlingStyle": "Right-arm Medium",
-    "battingStyle": "Right-handed",
-    "price": 90000
   }
 ]
