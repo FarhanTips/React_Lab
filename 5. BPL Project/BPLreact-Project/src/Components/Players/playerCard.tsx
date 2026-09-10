@@ -4,15 +4,18 @@ import { HiFlag } from "react-icons/hi";
 import { useState } from "react";
 
 interface PlayerCardProps {
-    player: PlayerType
+    player: PlayerType,
+    coin: number,
+    handleCoin: (playerPrice: number) => void
 }
 
-const PlayerCard = ({ player }: PlayerCardProps) => {
+const PlayerCard = ({ player, coin, handleCoin }: PlayerCardProps) => {
 
     const [isSelected, setIsSelected] = useState(false);
 
     const handleChooseButton = () =>{
-        setIsSelected(true);
+        coin>=player.price ? setIsSelected(true) : "";
+        handleCoin(player.price);
     };
 
     return (

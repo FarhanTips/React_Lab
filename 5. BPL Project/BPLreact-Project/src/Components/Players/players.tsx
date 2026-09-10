@@ -5,10 +5,12 @@ import SelectedPlayers from "./selectedPlayers";
 
 
 interface PlayersProps {
-  playersPromise: Promise<PlayerType[]>
+  playersPromise: Promise<PlayerType[]>,
+  coin: number,
+  handleCoin: (playerPrice: number) => void
 }
 
-const Players = ({ playersPromise }: PlayersProps) => {
+const Players = ({ playersPromise, coin, handleCoin }: PlayersProps) => {
   const players = use(playersPromise);
 
   const [buttonType, setButtonType] = useState("available");
@@ -31,7 +33,7 @@ const Players = ({ playersPromise }: PlayersProps) => {
       </div>
 
       {
-        buttonType === "available" ? <AvailablePlayers players={players}></AvailablePlayers> : <SelectedPlayers></SelectedPlayers>
+        buttonType === "available" ? <AvailablePlayers players={players} coin={coin} handleCoin = {handleCoin}></AvailablePlayers> : <SelectedPlayers></SelectedPlayers>
       }
 
     </div>
