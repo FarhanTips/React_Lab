@@ -1,10 +1,13 @@
+import type { PlayerType } from "../../types/playerType";
 
+interface SelectedPlayersProps {
+    selectedArray: PlayerType[]
+}
 
-
-const SelectedPlayers = () => {
+const SelectedPlayers = ({selectedArray}: SelectedPlayersProps) => {
     return (
         <div>
-            "No Data Currently"
+            {selectedArray.length <= 0 ? "No Data Currently" : selectedArray.length}
         </div>
     );
 };

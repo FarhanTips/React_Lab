@@ -6,16 +6,18 @@ import { useState } from "react";
 interface PlayerCardProps {
     player: PlayerType,
     coin: number,
-    handleCoin: (playerPrice: number) => void
+    handleCoin: (playerPrice: number) => void,
+    handleSelected: (newP : PlayerType) => void
 }
 
-const PlayerCard = ({ player, coin, handleCoin }: PlayerCardProps) => {
+const PlayerCard = ({ player, coin, handleCoin, handleSelected }: PlayerCardProps) => {
 
     const [isSelected, setIsSelected] = useState(false);
 
     const handleChooseButton = () =>{
         coin>=player.price ? setIsSelected(true) : "";
         handleCoin(player.price);
+        handleSelected(player);
     };
 
     return (
