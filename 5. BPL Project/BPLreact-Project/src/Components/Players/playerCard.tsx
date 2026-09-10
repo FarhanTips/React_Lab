@@ -7,15 +7,15 @@ interface PlayerCardProps {
     player: PlayerType,
     coin: number,
     handleCoin: (playerPrice: number) => void,
-    handleSelected: (newP : PlayerType) => void
+    handleSelected: (newP: PlayerType) => void,
 }
 
 const PlayerCard = ({ player, coin, handleCoin, handleSelected }: PlayerCardProps) => {
 
-    const [isSelected, setIsSelected] = useState(false);
 
-    const handleChooseButton = () =>{
-        coin>=player.price ? setIsSelected(true) : "";
+    const [isSelected, setIsSelected] = useState(false);
+    const handleChooseButton = () => {
+        coin >= player.price ? setIsSelected(true) : "";
         handleCoin(player.price);
         handleSelected(player);
     };
@@ -98,7 +98,7 @@ const PlayerCard = ({ player, coin, handleCoin, handleSelected }: PlayerCardProp
                         </p>
                     </div>
 
-                    <button onClick={handleChooseButton} className="btn btn-primary rounded-xl px-5" disabled = {isSelected ? true : false}>
+                    <button onClick={handleChooseButton} className="btn btn-primary rounded-xl px-5" disabled={isSelected ? true : false}>
                         {isSelected ? "Selected" : "Choose Player"}
                     </button>
 

@@ -33,7 +33,7 @@ function App() {
     <>
       <Nav coin={coin}></Nav>
       <Suspense fallback={<h3>Loading...</h3>}>
-        <Players playersPromise={playersPromise} coin={coin} handleCoin={handleCoin}></Players>
+        <Players playersPromise={playersPromise} coin={coin} handleCoin={handleCoin} setCoin={setCoin}></Players>
       </Suspense>
     </>
   )

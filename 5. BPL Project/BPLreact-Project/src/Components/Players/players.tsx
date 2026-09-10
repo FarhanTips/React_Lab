@@ -1,4 +1,4 @@
-import { use, useState } from "react";
+import { use, useState, type Dispatch, type SetStateAction } from "react";
 import type { PlayerType } from "../../types/playerType";
 import AvailablePlayers from "./availablePlayers";
 import SelectedPlayers from "./selectedPlayers";
@@ -7,10 +7,11 @@ import SelectedPlayers from "./selectedPlayers";
 interface PlayersProps {
   playersPromise: Promise<PlayerType[]>,
   coin: number,
-  handleCoin: (playerPrice: number) => void
+  handleCoin: (playerPrice: number) => void,
+  setCoin: Dispatch<SetStateAction<number>>;
 }
 
-const Players = ({ playersPromise, coin, handleCoin }: PlayersProps) => {
+const Players = ({ playersPromise, coin, handleCoin, setCoin }: PlayersProps) => {
   const players = use(playersPromise);
 
   const [buttonType, setButtonType] = useState("available");
@@ -39,7 +40,10 @@ const Players = ({ playersPromise, coin, handleCoin }: PlayersProps) => {
       </div>
 
       {
-        buttonType === "available" ? <AvailablePlayers players={players} coin={coin} handleCoin = {handleCoin} handleSelected={handleSelected}></AvailablePlayers> : <SelectedPlayers selectedArray={selectedArray}></SelectedPlayers>
+        buttonType === "available" ? 
+        <AvailablePlayers players={players} coin={coin} handleCoin = {handleCoin} handleSelected={handleSelected}></AvailablePlayers> : 
+        
+        <SelectedPlayers selectedArray={selectedArray} setSelectedArray={setSelectedArray} coin={coin} setCoin={setCoin}></SelectedPlayers>
       }
 
     </div>

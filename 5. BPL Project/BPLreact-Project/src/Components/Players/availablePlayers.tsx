@@ -1,3 +1,4 @@
+
 import type { PlayerType } from "../../types/playerType";
 import PlayerCard from "./playerCard";
 
@@ -9,6 +10,9 @@ interface AvailablePlayersProps {
 }
 
 const AvailablePlayers = ({ players, coin, handleCoin, handleSelected }: AvailablePlayersProps) => {
+
+    
+
     return (
         <div className="grid grid-cols-3 gap-4">
             {
